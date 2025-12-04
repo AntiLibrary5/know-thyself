@@ -176,11 +176,11 @@ const library = [
                     {
                         eyebrow: 'THE SOFTWARE UPDATE',
                         title: 'The Brain Upgrade That Allowed Everything Else To Happen',
-                        body: 'In essence, the Cognitive Revolution was the "software update" for the Sapiens brain that allowed our unique brand of large-scale, flexible cooperation to flourish.',
+                        body: 'In essence, the Cognitive Revolution was the "software update" for the Sapiens brain that allowed our unique brand of large-scale, flexible cooperation to flourish. This revolution laid the neural and linguistic groundwork for everything that followed. The next major turning point, the one that fundamentally reshaped human society and the planet: The Agricultural Revolution, an event Harari controversially calls "history\'s biggest fraud!',
                         prompt: 'SUMMARIZING THE REVOLUTION',
                         image: 'images/2_8.png',
                         details: `
-                            <p>In essence, the Cognitive Revolution was the "software update" for the Sapiens brain that allowed our unique brand of large-scale, flexible cooperation to flourish.</p>
+                            <p>In essence, the Cognitive Revolution was the "software update" for the Sapiens brain that allowed our unique brand of large-scale, flexible cooperation to flourish. This revolution laid the neural and linguistic groundwork for everything that followed. The next major turning point, the one that fundamentally reshaped human society and the planet: The Agricultural Revolution, an event Harari controversially calls "history's biggest fraud</p>
                         `
                     }
                 ]
