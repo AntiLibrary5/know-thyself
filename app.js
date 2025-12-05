@@ -1,4 +1,81 @@
 const library = [
+{
+{
+        title: 'A Brief History of Time',
+        icon: '🌌',
+        parts: [
+            {
+                tag: 'Part 0',
+                title: 'The Fabric of the Cosmos',
+                subtitle: 'Space, Time, and Gravity',
+                cards: [
+                    {
+                        eyebrow: 'THE BIG IDEA',
+                        title: 'The Expanding Balloon',
+                        body: 'Imagine painting dots on a balloon and blowing it up. The dots move away from each other, not because they are walking, but because the balloon itself is stretching. Hawking explains the Universe is exactly like that. It isn\'t static; it is expanding. If we rewind this tape, everything squeezes back into a single, tiny, infinitely dense point: The Big Bang.',
+                        prompt: "THE BIG BANG EXPANSION",
+                        image: 'images/brief_history/1_1.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'GENERAL RELATIVITY',
+                        title: 'Space is a Trampoline',
+                        body: 'We used to think gravity was a force pulling things together, like a magnet. Einstein and Hawking changed that. Imagine a bowling ball on a trampoline. It curves the fabric. If you roll a marble past it, the marble curves around the ball. That is gravity! Heavy objects bend the actual "fabric" of space and time, and we just slide along the curves.',
+                        prompt: "CURVED SPACE-TIME",
+                        image: 'images/brief_history/1_2.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE FOURTH DIMENSION',
+                        title: 'Time is Relative',
+                        body: 'Here is the trippy part: Time is not a steady clock ticking the same for everyone. Time is flexible. If you travel near a massive object (like a Black Hole) or move really fast, time literally slows down for you compared to someone back on Earth. Time is personal. There is no universal "Now" that applies to the whole universe at once.',
+                        prompt: "DISTORTED CLOCKS",
+                        image: 'images/brief_history/1_3.png',
+                        details: '<p>...</p>'
+                    }
+                ]
+            },
+            {
+                tag: 'Part 1',
+                title: 'The Mysteries',
+                subtitle: 'Black Holes and The End',
+                cards: [
+                    {
+                        eyebrow: 'THE EVENT HORIZON',
+                        title: 'The Ultimate Trap',
+                        body: 'What happens when a giant star dies and collapses under its own weight? It creates a pit in the trampoline so deep that nothing can escape—not even light. This is a Black Hole. The edge is called the "Event Horizon." Once you cross it, there is no coming back. It is the dark closet of the universe where the normal laws of physics simply break down.',
+                        prompt: "INTO THE ABYSS",
+                        image: 'images/brief_history/2_1.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'HAWKING RADIATION',
+                        title: 'Black Holes Aren\'t Black',
+                        body: 'Hawking made a shocking discovery: Black holes actually glow! Through weird quantum effects, they slowly leak particles (now called Hawking Radiation). This means that over billions of years, black holes evaporate and disappear. They aren\'t eternal prisons; they are slowly leaking engines of energy that eventually fade away.',
+                        prompt: "GLOWING DARKNESS",
+                        image: 'images/brief_history/2_2.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'ENTROPY',
+                        title: 'The Arrow of Time',
+                        body: 'Why can you remember the past but not the future? Why does a cup break but never un-break? It is called Entropy (disorder). The universe naturally moves from order to messiness. This movement creates the "Arrow of Time." We perceive time flowing forward because the universe is constantly getting more disordered. We are surfing a wave of increasing chaos!',
+                        prompt: "THE BROKEN CUP",
+                        image: 'images/brief_history/2_3.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE HOLY GRAIL',
+                        title: 'The Theory of Everything',
+                        body: 'Right now, physics is split in two. "General Relativity" explains huge things (stars, gravity), and "Quantum Mechanics" explains tiny things (atoms). The problem? They don\'t get along. They hate each other mathematically. The ultimate goal of Hawking\'s life was to find one equation to unite them—a "Theory of Everything" that would explain the mind of God.',
+                        prompt: "THE PUZZLE PIECES",
+                        image: 'images/brief_history/2_4.png',
+                        details: '<p>...</p>'
+                    }
+                ]
+            }
+        ]
+    },
     {
         title: 'Sapiens',
         icon: '📚',
@@ -363,6 +440,114 @@ const library = [
                         details: '<p>...</p>'
                     }
 					
+                ]
+            }
+        ]
+    },
+	{
+        title: 'Thinking, Fast and Slow',
+        icon: '🧠',
+        parts: [
+            {
+                tag: 'Part 0',
+                title: 'The Two Operators',
+                subtitle: 'Meet the duo running the show inside your head.',
+                cards: [
+                    {
+                        eyebrow: 'THE DUAL PROCESSOR',
+                        title: 'Meet The Odd Couple',
+                        body: 'You think of yourself as one single person, but Kahneman argues your brain is actually a partnership between two very different characters. One is fast, emotional, and impulsive (System 1). The other is slow, logical, and incredibly lazy (System 2). To understand why you do what you do, you have to meet the team.',
+                        prompt: "THE CAST",
+                        image: 'images/thinking_fast/1_1.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'SYSTEM 1',
+                        title: 'Fast, Furious, and Always On',
+                        body: 'This is your gut reaction. It operates automatically and involuntarily. It’s the part of you that instantly answers "4" when you see "2+2" or snaps your head toward a loud noise. It requires zero effort and feels like it happens to you, rather than you doing it. It never sleeps.',
+                        prompt: "THE AUTOPILOT",
+                        image: 'images/thinking_fast/1_2.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'SYSTEM 2',
+                        title: 'The Lazy Controller',
+                        body: 'This is the "you" that you identify with—the conscious voice in your head. It handles complex stuff like "17 x 24" or parking in a tight spot. But here’s the catch: it takes massive effort. Focusing attention burns energy, so this system is naturally lazy. It only wakes up when it absolutely has to.',
+                        prompt: "THE ENGINEER",
+                        image: 'images/thinking_fast/1_3.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE INTERACTION',
+                        title: 'Rubber-Stamping Reality',
+                        body: 'Here is the crucial dynamic: System 1 is constantly generating suggestions, feelings, and intuitions. System 2 should check them, but because it’s lazy, it usually just accepts them without looking. System 1 provides the impression; System 2 turns it into a belief. Most of the time, the lazy boss just rubber-stamps the intern\'s work.',
+                        prompt: "THE DYNAMIC",
+                        image: 'images/thinking_fast/1_4.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE PUNCHLINE',
+                        title: 'Who’s Really Driving?',
+                        body: 'We like to think System 2 is the pilot of our lives. In reality, System 2 is often a passenger, and System 1 is steering the car. This efficient division of labor usually works, but it leaves us vulnerable. Because the pilot is impulsive and the co-pilot is asleep, we are prone to predictable errors and biases.',
+                        prompt: "THE TRUTH",
+                        image: 'images/thinking_fast/1_5.png',
+                        details: '<p>...</p>'
+                    }
+                ]
+            },
+			{
+                tag: 'Part 1',
+                title: 'The Glitches in the Matrix',
+                subtitle: 'Why your brain takes shortcuts and how they lead you astray.',
+                cards: [
+                    {
+                        eyebrow: 'THE AVAILABILITY HEURISTIC',
+                        title: 'If It Bleeds, It Leads',
+                        body: 'We judge how likely something is by how easily we can remember examples. Shark attacks? Terrifying, vivid, and all over the news. Falling airplane parts? Boring and hard to picture. Result: We fear the shark, even though falling debris is statistically deadlier. System 1 prefers a good horror movie over boring statistics.',
+                        prompt: "THE SHORTCUT",
+                        image: 'images/thinking_fast/2_1.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE REPRESENTATIVENESS HEURISTIC',
+                        title: 'The Linda Problem',
+                        body: 'Meet Linda: bright, outspoken, philosophy major. Is she a bank teller? Or a feminist bank teller? Most people say "feminist bank teller" because it fits her description. But logic says there are way more bank tellers than feminist ones. You just fell for a good story and ignored the math (base rates).',
+                        prompt: "THE STEREOTYPE",
+                        image: 'images/thinking_fast/2_2.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE ANCHORING EFFECT',
+                        title: 'Dragged Down by Randomness',
+                        body: 'Your brain grabs the first number it sees—the "anchor"—and struggles to move away from it. In Kahneman’s study, a random wheel spin influenced how people guessed stats about the UN. Even when the number is totally random, it pulls your judgment toward it like a magnet, skewing your final answer.',
+                        prompt: "THE ANCHOR",
+                        image: 'images/thinking_fast/2_3.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'LOSS AVERSION & THE ENDOWMENT EFFECT',
+                        title: 'The "Mine!" Instinct',
+                        body: 'Losing $10 feels twice as bad as finding $10 feels good. This leads to the "Endowment Effect": we value things way more just because we own them. In the "Mug Experiment," owners wanted $7 to sell, but buyers would only pay $3. Simply holding the mug made it feel more valuable.',
+                        prompt: "THE IMBALANCE",
+                        image: 'images/thinking_fast/2_4.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE FRAMING EFFECT',
+                        title: 'It’s All About Presentation',
+                        body: '"90% survival rate" sounds great. "10% mortality rate" sounds terrifying. They are the exact same statistic! But your System 1 reacts emotionally to the words "survival" (good!) and "mortality" (bad!), causing you to make totally different decisions based entirely on how the info is framed.',
+                        prompt: "THE FRAME",
+                        image: 'images/thinking_fast/2_5.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'WYSIATI (THE MASTER CONCEPT)',
+                        title: 'What You See Is All There Is',
+                        body: 'This is the root of all biases. System 1 creates a coherent story based only on the info right in front of it. It doesn\'t ask, "What am I missing?" It assumes the limited view through the keyhole is the whole world. It jumps to conclusions because it ignores the unknown.',
+                        prompt: "THE MASTER KEY",
+                        image: 'images/thinking_fast/2_6.png',
+                        details: '<p>...</p>'
+                    }
                 ]
             }
         ]
