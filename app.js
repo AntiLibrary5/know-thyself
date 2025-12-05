@@ -264,6 +264,108 @@ const library = [
                 ]
             }
         ]
+    },
+	{
+        title: 'The Brain',
+        icon: '🧠',
+        parts: [
+            {
+                tag: 'Part 0',
+                title: 'Reality is a Construction',
+                subtitle: 'Your Brain is a Storyteller',
+                cards: [
+                    {
+                        eyebrow: 'THE LOCKED VAULT',
+                        title: 'Locked In The Dark',
+                        body: 'Here is the spooky truth: Your brain has never seen the sun or felt the wind. It sits in a pitch-black, silent vault of bone (your skull). It has zero direct contact with the outside world. It relies entirely on electric impulses sent down wires by your eyes and ears, trying to guess what is happening outside.',
+                        prompt: "THE SITUATION",
+                        image: 'images/brain/1_1.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE REALITY STUDIO',
+                        title: 'The World Builder',
+                        body: 'You aren\'t a video camera recording the world; you are a director creating a movie. Your brain takes sketchy, low-quality data from your senses and aggressively edits it. It fills in gaps, stabilizes shaky footage, and applies filters. What you experience as "reality" is actually a high-definition simulation broadcast inside your head.',
+                        prompt: "THE MERCHANISM",
+                        image: 'images/brain/1_2.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'THE GREAT TRANSLATOR',
+                        title: 'The Invention Of Color',
+                        body: 'Color doesn\'t exist outside your head. Out there, it’s just electromagnetic radiation of different sizes. Your brain acts as a translator, turning boring data (wavelengths) into a dazzling user interface (red, blue, green) so you can tell a ripe fruit from a poisonous one. You don\'t see the physics; you see the "icons."',
+                        prompt: "THE USER INTERFACE",
+                        image: 'images/brain/1_3.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'THE TIME LAG',
+                        title: 'Living In The Past',
+                        body: 'Light hits your eyes faster than sound hits your ears. It takes time for signals to travel up your nerves. To prevent your life from looking like a badly dubbed Kung Fu movie, your brain waits for all signals to arrive before showing you the scene. This means your "now" is actually a split-second delay.',
+                        prompt: "MIND-BENDING TRUTH",
+                        image: 'images/brain/1_4.png',
+                        details: '<p>...</p>'
+                    }
+					
+                ]
+            },
+			{
+                tag: 'Part 1',
+                title: 'Key Principles of Brain Function',
+                subtitle: 'How the Individual Brain Works',
+                cards: [
+                    {
+                        eyebrow: 'THE SHAPESHIFTER',
+                        title: 'Your Brain is Not Hardware',
+                        body: 'Most machines, like your laptop, have fixed hardware. Your brain is different. It is "livewired." It is constantly unplugging and re-plugging its own circuits based on what you do. If you learn the streets of London, your memory centers physically grow. You aren\'t just storing information; you are physically sculpting the structure of your brain.',
+                        prompt: "PLASTICITY",
+                        image: 'images/brain/2_1.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE UNIVERSAL PLUG',
+                        title: 'Seeing With Your Skin',
+                        body: 'Your brain doesn\'t "know" what eyes are. It just knows how to process electrical signals. This means you can swap the inputs. If you feed video data into the brain through vibrations on the skin, the visual cortex will eventually learn to decode it. Your brain is a universal machine: give it data, and it will figure out how to "see" it.',
+                        prompt: "ADAPTABILITY",
+                        image: 'images/brain/2_2.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'THE STOWAWAY',
+                        title: 'You Are Not the Captain',
+                        body: 'You think you are the Captain of the S.S. You, steering the ship. Actually, you\'re a stowaway on a massive ocean liner. The engines, navigation, and repairs are all run by a crew you never see (your unconscious). You only get notified when something goes wrong or a major decision is needed. Most of "you" is running on autopilot.',
+                        prompt: "THE UNCONSCIOUS",
+                        image: 'images/brain/2_3.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'THE ZOMBIE PLOT',
+                        title: 'Burning It Into the Circuit',
+                        body: 'Remember how hard driving was at first? That was your conscious mind struggling. Now, you can drive home without thinking. Why? Because you "burned" the skill into your unconscious circuitry. Your conscious mind handed the keys to your inner "zombie pilot"—a fast, efficient, automatic system that drives while you daydream.',
+                        prompt: "AUTOMATION",
+                        image: 'images/brain/2_4.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'THE CIVIL WAR',
+                        title: 'The Parliament of Mind',
+                        body: 'There is no single "You." Your brain is a parliament of rival political parties. One party (the Limbic System) wants cake now. The other party (the Frontal Cortex) wants to be healthy later. Every decision you make—like putting down the fork—is just the winner of a violent, silent civil war inside your skull.',
+                        prompt: "INTERNAL CONFLICT",
+                        image: 'images/brain/2_5.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'HACKING YOUR FUTURE',
+                        title: 'Don\'t Trust Your Future Self',
+                        body: 'Since your brain switches between "Rational You" and "Impulsive You," you can\'t trust your future self. The solution? A Ulysses Contract. You lock the junk food away today so the "Impulsive You" of tomorrow can\'t get it. You are essentially outsmarting a different person who lives in your body.',
+                        prompt: "STRATEGY",
+                        image: 'images/brain/2_6.png',
+                        details: '<p>...</p>'
+                    }
+					
+                ]
+            }
+        ]
     }
 ];
 
