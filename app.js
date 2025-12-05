@@ -1,75 +1,74 @@
 const library = [
-{
-{
+	{
         title: 'A Brief History of Time',
         icon: '🌌',
         parts: [
             {
-                tag: 'Part 0',
-                title: 'The Fabric of the Cosmos',
-                subtitle: 'Space, Time, and Gravity',
+                tag: 'Part 1',
+                title: 'The Quest for Knowledge',
+                subtitle: 'How We Picture Our Universe',
                 cards: [
                     {
-                        eyebrow: 'THE BIG IDEA',
-                        title: 'The Expanding Balloon',
-                        body: 'Imagine painting dots on a balloon and blowing it up. The dots move away from each other, not because they are walking, but because the balloon itself is stretching. Hawking explains the Universe is exactly like that. It isn\'t static; it is expanding. If we rewind this tape, everything squeezes back into a single, tiny, infinitely dense point: The Big Bang.',
-                        prompt: "THE BIG BANG EXPANSION",
+                        eyebrow: 'THE TOWER OF TURTLES',
+                        title: 'Turtles All The Way Down?',
+                        body: 'Hawking starts with a famous story: A scientist explains the earth orbits the sun. An old woman objects, claiming the world is a flat plate on the back of a giant turtle. When asked what the turtle stands on, she triumphs: "It’s turtles all the way down!" It sounds silly, but Hawking challenges us: Why do we think we know better?',
+                        prompt: "THE OPENING ANECDOTE",
                         image: 'images/brief_history/1_1.png',
                         details: '<p>...</p>'
                     },
                     {
-                        eyebrow: 'GENERAL RELATIVITY',
-                        title: 'Space is a Trampoline',
-                        body: 'We used to think gravity was a force pulling things together, like a magnet. Einstein and Hawking changed that. Imagine a bowling ball on a trampoline. It curves the fabric. If you roll a marble past it, the marble curves around the ball. That is gravity! Heavy objects bend the actual "fabric" of space and time, and we just slide along the curves.',
-                        prompt: "CURVED SPACE-TIME",
+                        eyebrow: 'THE MENTAL MODEL',
+                        title: 'It’s Just a Model',
+                        body: 'Here is the hard truth: A theory exists only in our minds. It’s a model we build to explain what we see. It’s never 100% "true" because you can’t check every instance in the universe. Seeing the sun rise a million times suggests a pattern, but it only takes one day of the sun not rising to prove the theory wrong.',
+                        prompt: "THE SCIENTIFIC METHOD",
                         image: 'images/brief_history/1_2.png',
                         details: '<p>...</p>'
                     },
                     {
-                        eyebrow: 'THE FOURTH DIMENSION',
-                        title: 'Time is Relative',
-                        body: 'Here is the trippy part: Time is not a steady clock ticking the same for everyone. Time is flexible. If you travel near a massive object (like a Black Hole) or move really fast, time literally slows down for you compared to someone back on Earth. Time is personal. There is no universal "Now" that applies to the whole universe at once.',
-                        prompt: "DISTORTED CLOCKS",
+                        eyebrow: 'THE GREAT SCHISM',
+                        title: 'A Tale of Two Universes',
+                        body: 'Right now, physics is split in two. We have General Relativity to explain the heavy stuff (gravity, stars, the universe). We have Quantum Mechanics to explain the tiny stuff (atoms, particles). They both work perfectly on their own turf, but they are incompatible. They speak completely different languages.',
+                        prompt: "THE CURRENT CRISIS",
                         image: 'images/brief_history/1_3.png',
-                        details: '<p>...</p>'
-                    }
-                ]
-            },
-            {
-                tag: 'Part 1',
-                title: 'The Mysteries',
-                subtitle: 'Black Holes and The End',
-                cards: [
-                    {
-                        eyebrow: 'THE EVENT HORIZON',
-                        title: 'The Ultimate Trap',
-                        body: 'What happens when a giant star dies and collapses under its own weight? It creates a pit in the trampoline so deep that nothing can escape—not even light. This is a Black Hole. The edge is called the "Event Horizon." Once you cross it, there is no coming back. It is the dark closet of the universe where the normal laws of physics simply break down.',
-                        prompt: "INTO THE ABYSS",
-                        image: 'images/brief_history/2_1.png',
-                        details: '<p>...</p>'
-                    },
-                    {
-                        eyebrow: 'HAWKING RADIATION',
-                        title: 'Black Holes Aren\'t Black',
-                        body: 'Hawking made a shocking discovery: Black holes actually glow! Through weird quantum effects, they slowly leak particles (now called Hawking Radiation). This means that over billions of years, black holes evaporate and disappear. They aren\'t eternal prisons; they are slowly leaking engines of energy that eventually fade away.',
-                        prompt: "GLOWING DARKNESS",
-                        image: 'images/brief_history/2_2.png',
-                        details: '<p>...</p>'
-                    },
-                    {
-                        eyebrow: 'ENTROPY',
-                        title: 'The Arrow of Time',
-                        body: 'Why can you remember the past but not the future? Why does a cup break but never un-break? It is called Entropy (disorder). The universe naturally moves from order to messiness. This movement creates the "Arrow of Time." We perceive time flowing forward because the universe is constantly getting more disordered. We are surfing a wave of increasing chaos!',
-                        prompt: "THE BROKEN CUP",
-                        image: 'images/brief_history/2_3.png',
                         details: '<p>...</p>'
                     },
                     {
                         eyebrow: 'THE HOLY GRAIL',
                         title: 'The Theory of Everything',
-                        body: 'Right now, physics is split in two. "General Relativity" explains huge things (stars, gravity), and "Quantum Mechanics" explains tiny things (atoms). The problem? They don\'t get along. They hate each other mathematically. The ultimate goal of Hawking\'s life was to find one equation to unite them—a "Theory of Everything" that would explain the mind of God.',
-                        prompt: "THE PUZZLE PIECES",
-                        image: 'images/brief_history/2_4.png',
+                        body: 'The goal of this book—and the holy grail of modern physics—is to heal this split. Hawking is searching for a Grand Unified Theory that merges gravity and quantum mechanics. If we find this single equation, we won\'t just predict the movement of stars; we will understand the fundamental "why" of existence, or as Hawking puts it, "the mind of God."',
+                        prompt: "THE ULTIMATE GOAL",
+                        image: 'images/brief_history/1_4.png',
+                        details: '<p>...</p>'
+                    }
+                ]
+            },
+            {
+                tag: 'Part 2',
+                title: 'Bending Reality',
+                subtitle: 'The Nature of Space and Time',
+                cards: [
+                    {
+                        eyebrow: 'THE PARADIGM SHIFT',
+                        title: 'The Stage Is Alive',
+                        body: 'To understand the modern universe, you have to unlearn your common sense. Isaac Newton thought space was just an empty, rigid container where things happened, and time was a universal clock that ticked the same for everyone. Einstein blew that up. He realized space and time aren\'t separate; they are woven together into a flexible, four-dimensional fabric called "space-time."',
+                        prompt: "THE OLD VS. THE NEW",
+                        image: 'images/brief_history/2_1.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE COSMIC TRAMPOLINE',
+                        title: 'It’s Not a Pull, It’s a Bend',
+                        body: 'General Relativity changed everything by defining gravity as curvature. Forget gravity as an invisible magnet pulling things. Imagine the universe as a giant trampoline. Put a heavy bowling ball (like the Sun) in the middle, and the mat curves down. A marble (like Earth) rolls toward the ball not because it\'s being pulled, but simply because it’s following the curve of the mat.',
+                        prompt: "VISUALIZING GRAVITY",
+                        image: 'images/brief_history/2_2.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'WARPED TIME',
+                        title: 'Where Gravity Slows the Clock',
+                        body: 'Since space and time are woven together, if you bend space with gravity, you warp time too. The heavier the object, the stronger the gravity, and the slower time moves nearby. A clock placed near a massive pyramid (stronger gravity) actually ticks slower than a clock floating way out in deep space.',
+                        prompt: "MIND-BENDING PHYSICS",
+                        image: 'images/brief_history/2_3.png',
                         details: '<p>...</p>'
                     }
                 ]
@@ -446,7 +445,7 @@ const library = [
     },
 	{
         title: 'Thinking, Fast and Slow',
-        icon: '🧠',
+        icon: '💭',
         parts: [
             {
                 tag: 'Part 0',
