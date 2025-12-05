@@ -2,7 +2,7 @@ from PIL import Image
 import os
 
 def resize_images(directory):
-    target_size = (1408, 768)
+    target_size = (800, 436)
     for root, _, files in os.walk(directory):
         for file in files:
             if file.lower().endswith('.png'):
