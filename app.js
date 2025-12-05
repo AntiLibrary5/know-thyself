@@ -197,21 +197,70 @@ const library = [
                 subtitle: 'Genes as the Unit of Selection',
                 cards: [
                     {
-                        eyebrow: 'IMMORTAL COILS',
+                        eyebrow: 'THE BIG IDEA',
                         title: 'Genes, not Species',
-                        body: 'The fundamental unit of selection, and therefore of self-interest, is not the species, nor the group, nor even the individual. It is the gene.',
-                        prompt: "PROMPT: THE GENE'S-EYE VIEW",
-                        image: 'https://via.placeholder.com/400x300',
-                        details: '<p>Dawkins argues that we are "survival machines"—robot vehicles blindly programmed to preserve the selfish molecules known as genes. This "gene\'s-eye view" of evolution turns traditional perspectives on their head.</p>'
+                        body: 'We usually think evolution is about the survival of the fittest animal or the strongest species. But Dawkins flips the script. He argues the real main character of history isn\'t the lion or the human—it is the gene. The gene is the only unit that actually survives and persists through millions of years, while our bodies are just temporary blips on the timeline.',
+                        prompt: "THE GENE'S EYE VIEW",
+                        image: 'images/selfish_gene/1_1.png',
+                        details: '<p>...</p>'
                     },
                     {
-                        eyebrow: 'SURVIVAL MACHINES',
-                        title: 'Our Genetic Overlords',
-                        body: 'We are survival machines, but "we" does not mean us as individuals. It means our genes. They created us, body and mind, and their preservation is the ultimate rationale for our existence.',
-                        prompt: 'PROMPT: WHO IS IN CONTROL?',
-                        image: 'https://via.placeholder.com/400x300',
-                        details: '<p>This is a provocative and humbling idea. It suggests that our deepest emotions, our altruism, our love for our children—all can be explained from the perspective of a gene trying to maximize its chances of replication.</p>'
+                        eyebrow: 'REPLICATORS VS VEHICLES',
+                        title: 'We Are Survival Machines',
+                        body: 'Dawkins asks us to distinguish between the "Replicators" (the genes) and the "Vehicles" (us). Genes are the immortal blueprints that want to copy themselves forever. To do this, they build complex "survival machines" to protect them from the outside world. You, me, and every animal are just temporary robots built by our genes to carry them safely into the next generation.',
+                        prompt: "THE METAPHOR",
+                        image: 'images/selfish_gene/1_2.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'THE PARADOX OF ALTRUISM',
+                        title: 'The Calculated Sacrifice',
+                        body: 'If genes are selfish, why would a mother deer risk her life to save her fawn? It looks like kindness, but it is actually a cold calculation. Because the baby carries 50% of the mother\'s genes, saving the baby is a strategic move to ensure those genes survive. The mother acts "altruistically" only because her genes are acting "selfishly" to protect copies of themselves.',
+                        prompt: "KIN SELECTION",
+                        image: 'images/selfish_gene/1_3.png',
+                        details: '<p>...</p>'
                     }
+					
+                ]
+            },
+			{
+                tag: 'Part 1',
+                title: 'Kin Selection',
+                subtitle: 'Selfish Altruism',
+                cards: [
+                    {
+                        eyebrow: 'KIN SELECTION',
+                        title: 'Why We Help Family',
+                        body: 'Why do wolves hunt together and birds feed their siblings? It’s called Kin Selection. Since relatives share a portion of your DNA, helping them survive is actually a way of helping your own genes survive. It explains why family bonds are so strong in nature: it’s the genes protecting their own copies residing in someone else’s body.',
+                        prompt: "FAMILY TIES",
+                        image: 'images/selfish_gene/2_1.png',
+                        details: '<p>...</p>'
+                    },
+                    {
+                        eyebrow: 'THE BATTLE OF SEXES',
+                        title: 'The Cost Of Creation',
+                        body: 'In the game of evolution, males and females often play by different rules. Why? Cost. A female egg is large, complex, and "expensive" to make, while male sperm is tiny and "cheap" to produce in millions. This imbalance means females usually have to be choosy (looking for quality), while males are often competitive (looking for quantity).',
+                        prompt: "EVOLUTIONARY CONFLICT",
+                        image: 'images/selfish_gene/2_2.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'THE MEME',
+                        title: 'Ideas Are Alive - Memes',
+                        body: 'Dawkins asks: Is DNA the only thing that replicates? No! He introduces the Meme: an idea, a tune, or a fashion trend. Just like genes leap from body to body, memes leap from brain to brain through imitation. If a song is catchy, it spreads. This is the bridge to human culture—the "imagined orders" we learned about in Sapiens are actually giant webs of memes!',
+                        prompt: "THE NEW REPLICATOR",
+                        image: 'images/selfish_gene/2_3.png',
+                        details: '<p>...</p>'
+                    },
+					{
+                        eyebrow: 'MEMES BUILT OUR WORLD',
+                        title: 'The Bridge To Sapiens',
+                        body: 'Remember the "Imagined Orders" from Sapiens? Things like money, nations, and laws that only exist because we all believe in them? Dawkins gives us the biological name for them: Memeplexes. Just as genes team up to build a body, memes team up to build a culture. Our entire society is built on these invisible, replicating ideas!',
+                        prompt: "THE BIG CONNECTION",
+                        image: 'images/selfish_gene/2_4.png',
+                        details: '<p>...</p>'
+                    }
+					
                 ]
             }
         ]
