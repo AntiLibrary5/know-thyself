@@ -63,10 +63,26 @@ body {
     color: var(--text-light-grey);
 }
 
-.sidebar-nav {
-    flex-grow: 1;
-    list-style: none;
+/* The flex child of .sidebar is the <nav>, not the <ul> inside it, so the
+   grow-and-scroll behaviour has to live here — otherwise a book with many
+   parts pushes the last entries off the bottom of the viewport with no way
+   to reach them. `min-height: 0` is required: flex items default to
+   `min-height: auto`, which refuses to shrink below content height and
+   silently defeats overflow-y. */
+.sidebar > nav {
+    flex: 1 1 auto;
+    min-height: 0;
     overflow-y: auto;
+    /* Keep the header and tip box pinned; only the list scrolls. */
+    overscroll-behavior: contain;
+}
+
+.sidebar-nav {
+    list-style: none;
+}
+
+.sidebar-footer {
+    padding-top: 16px;
 }
 
 .nav-item a {
